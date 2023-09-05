@@ -1,16 +1,6 @@
 import { useState } from "react";
 import "./App.css";
 
-/**
- * *the code below should be run as part of husky setup:
- * npx mrm@2 lint-staged
- *
- * *to update packages to latest:
- * npm i -g npm-check-updates
- * ncu -u
- * npm install
- */
-
 function App() {
   const [count, setCount] = useState(0);
 
