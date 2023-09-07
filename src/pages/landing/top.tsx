@@ -1,20 +1,17 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
-import landingTop from "@/assets/landing-top.png";
-import ListLandingLinks from "@/components/list-landing-links";
+import landingTop1 from "@/assets/landing-top-1.png";
 import Button from "@/components/button";
 
 function LandingTop() {
   return (
     <Box
       h="calc(100vh - 80px)"
-      bgImage={landingTop}
+      bgImage={landingTop1}
       bgPosition="center"
       bgRepeat="no-repeat"
       bgSize="cover"
       pos="relative"
     >
-      <ListLandingLinks />
-
       <Heading
         as="h1"
         fontSize="50px"
