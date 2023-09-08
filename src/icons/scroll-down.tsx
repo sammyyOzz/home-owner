@@ -1,6 +1,6 @@
 import { Icon } from "@chakra-ui/react";
 
-function DownIcon({ ...props }: any) {
+function ScrollDownIcon({ ...props }: any) {
   return (
     <Icon viewBox="0 0 40 40" {...props}>
       <path
@@ -13,4 +13,4 @@ function DownIcon({ ...props }: any) {
   );
 }
 
-export default DownIcon;
+export default ScrollDownIcon;
