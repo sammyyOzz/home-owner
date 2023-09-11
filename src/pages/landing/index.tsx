@@ -1,3 +1,4 @@
+import ExpectFromUs from "./expect-from-us";
 import PropertyDeals from "./property-deals";
 import LandingTop from "./top";
 
@@ -6,6 +7,7 @@ function Landing() {
     <>
       <LandingTop />
       <PropertyDeals />
+      <ExpectFromUs />
     </>
   );
 }
