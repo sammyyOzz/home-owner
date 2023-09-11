@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import BecomeAPartner from "./become-a-partner";
 import ExpectFromUs from "./expect-from-us";
 import NeedHelp from "./need-help";
@@ -20,6 +21,7 @@ function Landing() {
       <WatchOurVideo />
       <NeedHelp />
       <Subscribe />
+      <Footer />
     </>
   );
 }
