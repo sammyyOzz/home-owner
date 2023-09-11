@@ -6,7 +6,14 @@ import LocationIcon from "@/icons/location";
 function PropertyDealCard() {
   return (
     <Box pos="relative" w="100%" h="100%">
-      <Image src={propertyImage} alt="property" w="100%" h="350px" borderRadius="5px 5px 0 0" />
+      <Image
+        src={propertyImage}
+        alt="property"
+        w="100%"
+        h="350px"
+        borderRadius="5px 5px 0 0"
+        objectFit="cover"
+      />
 
       <Box
         pos="absolute"
