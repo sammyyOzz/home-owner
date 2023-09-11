@@ -2,6 +2,7 @@ import ExpectFromUs from "./expect-from-us";
 import PropertyDeals from "./property-deals";
 import Shop from "./shop";
 import LandingTop from "./top";
+import WhatOurCustomersAreSaying from "./what-our-customers-are-saying";
 
 function Landing() {
   return (
@@ -10,6 +11,7 @@ function Landing() {
       <PropertyDeals />
       <ExpectFromUs />
       <Shop />
+      <WhatOurCustomersAreSaying />
     </>
   );
 }
