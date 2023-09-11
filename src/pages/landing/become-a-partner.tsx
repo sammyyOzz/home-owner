@@ -5,7 +5,7 @@ import partnerImage2 from "@/assets/become-a-partner-2.png";
 
 function BecomeAPartner() {
   return (
-    <Flex pl="10%" py="100px" height="fit-content">
+    <Flex pl="10%" pt="100px" height="fit-content">
       <Flex w="60%" align="center">
         <Box w="400px">
           <Heading as="h2" color="primary" fontSize="40px" mb={3}>
