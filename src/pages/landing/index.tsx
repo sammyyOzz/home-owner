@@ -1,3 +1,4 @@
+import BecomeAPartner from "./become-a-partner";
 import ExpectFromUs from "./expect-from-us";
 import PropertyDeals from "./property-deals";
 import Shop from "./shop";
@@ -12,6 +13,7 @@ function Landing() {
       <ExpectFromUs />
       <Shop />
       <WhatOurCustomersAreSaying />
+      <BecomeAPartner />
     </>
   );
 }
