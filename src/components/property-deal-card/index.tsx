@@ -24,7 +24,7 @@ function PropertyDealCard() {
         p={4}
         borderRadius="10px"
         bg="#fff"
-        boxShadow="0 0 3px #e7e4e4"
+        boxShadow="0 0 3px #c4c2c2"
       >
         <Text fontSize="sm" fontWeight="bold" mb={3}>
           Pay as You Stay

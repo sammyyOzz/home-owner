@@ -5,14 +5,8 @@ import ScrollDownIcon from "@/icons/scroll-down";
 
 function LandingTop() {
   return (
-    <Box
-      h="calc(100vh - 80px)"
-      bgImage={landingTop1}
-      bgPosition="center"
-      bgRepeat="no-repeat"
-      bgSize="cover"
-    >
-      <Box pos="relative" bg="#0D0D0D4D" w="100%" h="100%">
+    <Box h="970px" bgImage={landingTop1} bgPosition="center" bgRepeat="no-repeat" bgSize="cover">
+      <Box pos="relative" bg="#0d0d0d89" w="100%" h="calc(100vh - 80px)">
         <Box
           pos="absolute"
           top="50%"

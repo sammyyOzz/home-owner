@@ -5,7 +5,7 @@ import { Box, Flex, HStack, Heading, IconButton, Spacer, Text } from "@chakra-ui
 
 function PropertyDeals() {
   return (
-    <Box minH="400px" pos="relative" pt="200px" pb="100px">
+    <Box minH="400px" pos="relative" pt={["450px", null, "300px", "200px"]} pb="100px">
       <Flex pos="absolute" top="-65px" w="100%" justify="center">
         <ServicesBlock />
       </Flex>
