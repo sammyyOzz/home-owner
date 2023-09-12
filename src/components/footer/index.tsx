@@ -13,8 +13,8 @@ import YoutubeIcon from "@/icons/youtube";
 function Footer() {
   return (
     <>
-      <Flex px="10%" pt="100px" pb="80px">
-        <Box w="250px">
+      <Flex px="10%" pt="100px" pb="80px" direction={["column", null, null, "row"]}>
+        <Box w={["100%", null, null, "250px"]}>
           <Box>
             <Image src={logo} alt="" mt={-5} />
           </Box>
@@ -36,8 +36,8 @@ function Footer() {
           </HStack>
         </Box>
 
-        <Box w="calc(100% - 250px)" pos="relative">
-          <SimpleGrid columns={[6]} spacing={2}>
+        <Box w={["100%", null, null, "calc(100% - 250px)"]} pos="relative">
+          <SimpleGrid columns={[2, 3, 4, null, 6]} spacing={2}>
             {footerLinks.map((link, i) => (
               <Box key={i}>
                 <Text mb={5} fontWeight="bold">
@@ -52,7 +52,7 @@ function Footer() {
             ))}
           </SimpleGrid>
 
-          <Box pos="absolute" bottom={0} right={0}>
+          <Box pos="absolute" bottom={["-70px", "-90px", 0]} right={0}>
             <Text fontSize="xl" fontWeight="bold" mb={2}>
               Get Social
             </Text>
@@ -67,8 +67,21 @@ function Footer() {
         </Box>
       </Flex>
 
-      <Box as="hr" borderBottom="1px solid #b9b8b8" w="70%" mx="auto" />
-      <Text color="#535353" textAlign="center" fontSize="sm" my="25px">
+      <Box
+        as="hr"
+        borderBottom="1px solid #b9b8b8"
+        w={["90%", null, "70%"]}
+        mx="auto"
+        mt={[10, null, 0]}
+      />
+      <Text
+        maxW={["80%", null, "65%"]}
+        color="#535353"
+        textAlign="center"
+        fontSize="sm"
+        my="25px"
+        mx="auto"
+      >
         Copyright © 2023 Home Owner All right policy reserved
       </Text>
     </>

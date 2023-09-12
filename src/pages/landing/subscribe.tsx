@@ -10,10 +10,11 @@ function Subscribe() {
       bgImage={subscribeImage}
       bgPosition="center"
       bgSize="cover"
-      h="200px"
+      h={["250px", null, "200px"]}
     >
       <Flex
-        justify="space-between"
+        direction={["column", null, "row"]}
+        justify={["center", null, "space-between"]}
         align="center"
         bg="#fff"
         w="80%"
@@ -21,7 +22,8 @@ function Subscribe() {
         borderRadius="7px"
       >
         <Input
-          w="60%"
+          w={["100%", null, "60%"]}
+          mb={[3, null, 0]}
           fontSize="sm"
           placeholder="Please enter your email address to stay updated with our latest offers, goods and services."
         />

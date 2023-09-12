@@ -10,14 +10,14 @@ import { Box, Heading, SimpleGrid, Text } from "@chakra-ui/react";
 function ExpectFromUs() {
   return (
     <Box pt="50px" pb="100px">
-      <Heading as="h2" color="primary" fontSize="40px" ml="10%" mb={3}>
+      <Heading as="h2" color="primary" fontSize={["25px", null, "30px", "40px"]} ml="10%" mb={3}>
         What To Expect From Us
       </Heading>
       <Text w="80%" mx="auto" mb={4}>
         We create seamless connections between desire, acquisition and actual living outcomes that
         are sustainable and empowering.
       </Text>
-      <SimpleGrid w="75%" mx="auto" columns={3} spacing={6}>
+      <SimpleGrid w="75%" mx="auto" columns={[1, null, 2, 3]} spacing={6}>
         <ExpectFromUsCard
           icon={<HeartIcon fontSize="40px" />}
           title="Convenience"

@@ -5,10 +5,10 @@ import partnerImage2 from "@/assets/become-a-partner-2.png";
 
 function BecomeAPartner() {
   return (
-    <Flex pl="10%" pt="100px" height="fit-content">
-      <Flex w="60%" align="center">
+    <Flex pl="10%" pt="100px" height="fit-content" direction={["column", "column", "row"]} gap={6}>
+      <Flex w={["100%", null, "50%", "60%"]} align="center">
         <Box w="400px">
-          <Heading as="h2" color="primary" fontSize="40px" mb={3}>
+          <Heading as="h2" color="primary" fontSize={["25px", null, "30px", "40px"]} mb={3}>
             Become A Partner
           </Heading>
           <Text w="80%" mb={7} fontSize="sm">
@@ -22,8 +22,8 @@ function BecomeAPartner() {
       </Flex>
 
       <Box
-        w="40%"
-        h="650px"
+        w={["100%", null, "50%", "40%"]}
+        h={["400px", "400px", "400px", "650px"]}
         pos="relative"
         bgImage={`url(${partnerImage2})`}
         bgPosition="center"
@@ -36,7 +36,7 @@ function BecomeAPartner() {
           left={0}
           h="100%"
           objectFit="cover"
-          transform="translateX(-37%)"
+          transform={["translateX(-37%)"]}
         />
       </Box>
     </Flex>

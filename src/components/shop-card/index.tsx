@@ -23,7 +23,15 @@ function ShopCard({ image, title, text }: ShopCardProps) {
       </Flex>
 
       <Box w="50%">
-        <Image src={image} alt="" w="100%" h="100%" borderRadius="8px" objectFit="cover" />
+        <Image
+          src={image}
+          alt=""
+          w="100%"
+          h="100%"
+          maxH={["120px", "180px"]}
+          borderRadius="8px"
+          objectFit="cover"
+        />
       </Box>
     </Flex>
   );

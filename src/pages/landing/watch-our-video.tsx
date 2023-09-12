@@ -4,7 +4,13 @@ import watchVideoImage2 from "@/assets/watch-our-video-2.png";
 
 function WatchOurVideo() {
   return (
-    <Flex bgImage={watchVideoImage2} justify="center" align="center" h="500px" position="relative">
+    <Flex
+      bgImage={watchVideoImage2}
+      justify="center"
+      align="center"
+      h={["350px", null, "500px"]}
+      position="relative"
+    >
       <Text
         fontSize="lg"
         fontWeight="bold"
@@ -16,7 +22,7 @@ function WatchOurVideo() {
       >
         Watch our video
       </Text>
-      <Image src={watchVideoImage1} h="75%" />
+      <Image src={watchVideoImage1} h={["50%", null, "75%"]} />
     </Flex>
   );
 }
