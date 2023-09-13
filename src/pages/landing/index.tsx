@@ -8,6 +8,7 @@ import Subscribe from "./subscribe";
 import LandingTop from "./top";
 import WatchOurVideo from "./watch-our-video";
 import WhatOurCustomersAreSaying from "./what-our-customers-are-saying";
+import UtilitiesAndEnergy from "./utillities-and-energy";
 
 function Landing() {
   return (
@@ -16,6 +17,7 @@ function Landing() {
       <PropertyDeals />
       <ExpectFromUs />
       <Shop />
+      <UtilitiesAndEnergy />
       <WhatOurCustomersAreSaying />
       <BecomeAPartner />
       <WatchOurVideo />

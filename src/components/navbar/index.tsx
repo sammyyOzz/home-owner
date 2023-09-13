@@ -7,6 +7,7 @@ import MenuItem from "../menu/menuItem";
 import DownIcon from "@/icons/down";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Sidebar from "./sidebar";
+import ROUTES from "@/routes";
 
 const servicesList = [
   { name: "Buy" },
@@ -28,12 +29,12 @@ function Navbar() {
         <Image src={logo} alt="logo" h="80px" mt={-3} />
 
         <Flex justify="space-between" align="center" w="45%" display={["none", null, null, "flex"]}>
-          <Link to="#">
+          <Link to={ROUTES.LANDING}>
             <Text fontSize="sm" fontWeight="bold">
               Home
             </Text>
           </Link>
-          <Link to="#">
+          <Link to={ROUTES.ABOUT_US}>
             <Text fontSize="sm" fontWeight="bold">
               About
             </Text>
