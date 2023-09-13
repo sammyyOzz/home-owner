@@ -3,10 +3,23 @@ import propertyImage from "@/assets/landing-top-1.png";
 import Button from "../button";
 import LocationIcon from "@/icons/location";
 
-function PropertyDealCard() {
+export interface PropertyDealCardProps {
+  title: string;
+  location: string;
+  description: string;
+}
+
+function PropertyDealCard({ title, location, description }: PropertyDealCardProps) {
   return (
-    <Box pos="relative" w="100%" h="100%">
-      <Image src={propertyImage} alt="property" w="100%" h="350px" borderRadius="5px 5px 0 0" />
+    <Box pos="relative" w="100%" h="100%" whiteSpace="normal">
+      <Image
+        src={propertyImage}
+        alt="property"
+        w="100%"
+        h="350px"
+        borderRadius="5px 5px 0 0"
+        objectFit="cover"
+      />
 
       <Box
         pos="absolute"
@@ -17,22 +30,22 @@ function PropertyDealCard() {
         p={4}
         borderRadius="10px"
         bg="#fff"
-        boxShadow="0 0 3px #e7e4e4"
+        boxShadow="0 0 3px #c4c2c2"
       >
-        <Text fontSize="sm" fontWeight="bold" mb={3}>
-          Pay as You Stay
-        </Text>
-        <HStack mb={4}>
-          <LocationIcon />
-          <Text fontSize="xs" color="#1E3240">
-            Yaba Teck, Lagos
+        <Box>
+          <Text fontSize="sm" fontWeight="bold" mb={3}>
+            {title}
           </Text>
-        </HStack>
-
-        {/* <Text color="#959595" fontSize="xs" w="100px">
-          No matter the size, location and type of property desired, you can stay daily, stay
-          monthly, bi-annual, anytime ,anywhere.
-        </Text> */}
+          <HStack mb={4}>
+            <LocationIcon />
+            <Text fontSize="xs" color="#1E3240">
+              {location}
+            </Text>
+          </HStack>
+          <Text color="#959595" fontSize="xs">
+            {description}
+          </Text>
+        </Box>
       </Box>
 
       <Button
