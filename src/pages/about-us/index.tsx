@@ -1,4 +1,5 @@
 import OurMission from "./our-mission";
+import OurProductsAndServices from "./our-products-and-services";
 import OurStory from "./our-story";
 import OurValues from "./our-values";
 import OurVision from "./our-vision";
@@ -12,6 +13,7 @@ function AboutUs() {
       <OurStory />
       <OurMission />
       <OurValues />
+      <OurProductsAndServices />
     </>
   );
 }
