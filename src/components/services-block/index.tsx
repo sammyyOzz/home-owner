@@ -14,12 +14,12 @@ function ServicesBlock() {
         align="center"
         bg="#fff"
         px="25px"
-        w={["80%", "70%", "50%", "40%"]}
+        w={["87%", "70%", "50%", "40%"]}
         h="60px"
         borderRadius="10px 10px 0 0"
       >
         {services.map((service, i) => (
-          <Text key={i} color="#17171FCC" fontWeight="bold">
+          <Text key={i} color="#17171FCC" fontWeight="bold" fontSize={["sm", null, null, "md"]}>
             {service}
           </Text>
         ))}

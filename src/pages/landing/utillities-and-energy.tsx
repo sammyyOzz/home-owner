@@ -49,7 +49,7 @@ function UtilitiesAndEnergy() {
               <Text fontSize="sm" color="#40E0D0">
                 01
               </Text>
-              <Text fontSize={["xl", null, "2xl", "4xl"]} fontWeight="bold" color="#40E0D0">
+              <Text fontSize={["xl", null, "2xl", "3xl"]} fontWeight="bold" color="#40E0D0">
                 Solar Power
               </Text>
               <Text fontSize="xs" lineHeight={7}>

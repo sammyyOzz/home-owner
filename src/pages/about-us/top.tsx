@@ -18,7 +18,7 @@ function Top() {
           <Heading
             as="h2"
             fontSize={["25px", null, "30px", "40px"]}
-            w={["100%", null, "250px"]}
+            w={["100%", null, "350px"]}
             mb={3}
           >
             Welcome Home Owner

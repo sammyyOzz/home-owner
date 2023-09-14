@@ -13,26 +13,26 @@ import YoutubeIcon from "@/icons/youtube";
 function Footer() {
   return (
     <>
-      <Flex px="10%" pt="100px" pb="80px" direction={["column", null, null, "row"]}>
+      <Flex px="10%" pt="100px" pb="80px" direction={["column", null, null, "row"]} gap={5}>
         <Box w={["100%", null, null, "250px"]}>
           <Box>
             <Image src={logo} alt="" mt={-5} />
           </Box>
           <HStack mb={3}>
             <LocationIcon fontSize="2xl" />
-            <Text fontSize="sm">5 Mohammed St Salau Lagos, Nigeria</Text>
+            <Text fontSize="xs">5 Mohammed St Salau Lagos, Nigeria</Text>
           </HStack>
           <HStack mb={3}>
             <PhoneIcon fontSize="2xl" />
-            <Text fontSize="sm">5 Mohammed St Salau Lagos, Nigeria</Text>
+            <Text fontSize="xs">5 Mohammed St Salau Lagos, Nigeria</Text>
           </HStack>
           <HStack>
             <MailIcon fontSize="2xl" />
-            <Text fontSize="sm">Homeownerofficial@gmail.com</Text>
+            <Text fontSize="xs">Homeownerofficial@gmail.com</Text>
           </HStack>
           <HStack>
             <MailIcon fontSize="2xl" visibility="hidden" />
-            <Text fontSize="sm">www.homeowner.com</Text>
+            <Text fontSize="xs">www.homeowner.com</Text>
           </HStack>
         </Box>
 
@@ -40,11 +40,11 @@ function Footer() {
           <SimpleGrid columns={[2, 3, 4, null, 6]} spacing={2}>
             {footerLinks.map((link, i) => (
               <Box key={i}>
-                <Text mb={5} fontWeight="bold">
+                <Text mb={5} fontWeight="bold" fontSize="sm">
                   {link.title}
                 </Text>
                 {link.items.map((item, j) => (
-                  <Text key={j} mb={3} fontSize="sm">
+                  <Text key={j} mb={3} fontSize="xs">
                     {item.name}
                   </Text>
                 ))}
@@ -78,7 +78,7 @@ function Footer() {
         maxW={["80%", null, "65%"]}
         color="#535353"
         textAlign="center"
-        fontSize="sm"
+        fontSize="xs"
         my="25px"
         mx="auto"
       >

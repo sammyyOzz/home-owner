@@ -19,14 +19,13 @@ function LandingTop() {
             top="50%"
             left="50%"
             transform="translate(-50%, -50%)"
-            w={["300px", "450px", "590px"]}
-            // border="1px solid red"
+            w={["95%", null, "80%", "60%"]}
           >
             <Heading
               as="h1"
               fontSize={["30px", "35px", "50px"]}
               color="#fff"
-              textAlign={["center", "left"]}
+              textAlign={["center"]}
             >
               Freedom to{" "}
               <Box as="span" color="primary">
@@ -37,7 +36,7 @@ function LandingTop() {
               </Box>
             </Heading>
 
-            <Text fontSize="" color="#fff" h="80px" textAlign="center" mb={7}>
+            <Text color="#fff" h="80px" textAlign="center" fontSize={["sm", "null", "md"]} mb={10}>
               Our mission is to create seamless connections between desire, acquisition and actual
               living outcomes that are sustainable and empowering
             </Text>

@@ -15,7 +15,7 @@ function ShopCard({ image, title, text }: ShopCardProps) {
           {title}
         </Text>
 
-        <Text color="#959595" fontSize="sm" my="20px">
+        <Text color="#959595" fontSize="xs" my="20px">
           {text}
         </Text>
 
