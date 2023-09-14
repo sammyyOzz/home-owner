@@ -18,12 +18,12 @@ function Top() {
           <Heading
             as="h2"
             fontSize={["25px", null, "30px", "40px"]}
-            w={["100%", null, "350px"]}
+            w={["100%", null, null, "350px"]}
             mb={3}
           >
             Welcome Home Owner
           </Heading>
-          <Text w="75%" color="#000000B2" mb={5}>
+          <Text w={["100%", null, null, "75%"]} color="#000000B2" mb={5}>
             We are changing the way you search, secure and settle in your property anywhere.
           </Text>
           <HStack>

@@ -28,7 +28,7 @@ function Navbar() {
       <Flex h="80px" justify="space-between" align="center" pr={10} pl={5}>
         <Image src={logo} alt="logo" h="80px" mt={-3} />
 
-        <Flex justify="space-between" align="center" w="45%" display={["none", null, null, "flex"]}>
+        <Flex justify="space-between" align="center" w="57%" display={["none", null, null, "flex"]}>
           <Link to={ROUTES.LANDING}>
             <Text fontSize="sm" fontWeight="bold">
               Home

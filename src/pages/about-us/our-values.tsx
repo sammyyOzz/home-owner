@@ -6,7 +6,7 @@ import HeartIcon from "@/icons/expect-from-us/heart";
 function OurValues() {
   return (
     <Box p="50px 5%">
-      <Box w="50%" mb="40px">
+      <Box w={["100%", null, null, "50%"]} mb="40px">
         <Heading as="h2" color="primary" fontSize="lg" mb={1}>
           OUR
         </Heading>

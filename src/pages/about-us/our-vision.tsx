@@ -26,7 +26,7 @@ function OurVision() {
           >
             Vision
           </Heading>
-          <Text w="75%" color="#000000B2" mb={5}>
+          <Text w={["100%", null, null, "75%"]} color="#000000B2" mb={5}>
             To become Africa’s preferred living solution company through technology, collaboration
             and people focused strategies.
           </Text>
