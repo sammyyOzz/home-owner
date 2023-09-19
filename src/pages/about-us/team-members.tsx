@@ -1,6 +1,8 @@
 import TeamMemberCard from "@/components/team-member-card";
 import { Box, Flex, Heading, SimpleGrid, Text } from "@chakra-ui/react";
 import img1 from "@/assets/team-member-1.png";
+import img2 from "@/assets/team-member-2.png";
+import img3 from "@/assets/team-member-3.png";
 
 function TeamMembers() {
   return (
@@ -17,8 +19,8 @@ function TeamMembers() {
         <Box w={["100%", null, null, "75%"]}>
           <SimpleGrid columns={[1, 2, 3]} spacing={5}>
             <TeamMemberCard name="Jennifer" job="CX Head" image={img1} />
-            <TeamMemberCard name="Elijah Daniel" job="CTO" image={img1} />
-            <TeamMemberCard name="Zakariya Buhari" job="Product Designer" image={img1} />
+            <TeamMemberCard name="Elijah Daniel" job="CTO" image={img2} />
+            <TeamMemberCard name="Zakariya Buhari" job="Product Designer" image={img3} />
           </SimpleGrid>
           <Text fontSize="sm" color="#000000E5" mt="40px">
             Our Clan are highly motivated people with a mindset innovative enough to see problems,
