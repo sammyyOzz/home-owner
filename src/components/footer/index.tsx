@@ -19,21 +19,25 @@ function Footer() {
             <Image src={logo} alt="" mt={-5} />
           </Box>
           <HStack mb={3}>
-            <LocationIcon fontSize="2xl" />
-            <Text fontSize="xs">5 Mohammed St Salau Lagos, Nigeria</Text>
+            <LocationIcon fontSize="3xl" />
+            <Text fontSize="xs">29, Alfred Rewane way, Ikoyi, Lagos state</Text>
           </HStack>
           <HStack mb={3}>
             <PhoneIcon fontSize="2xl" />
-            <Text fontSize="xs">5 Mohammed St Salau Lagos, Nigeria</Text>
+            <Text fontSize="xs">+23413306345</Text>
           </HStack>
-          <HStack>
-            <MailIcon fontSize="2xl" />
-            <Text fontSize="xs">Homeownerofficial@gmail.com</Text>
-          </HStack>
-          <HStack>
-            <MailIcon fontSize="2xl" visibility="hidden" />
-            <Text fontSize="xs">www.homeowner.com</Text>
-          </HStack>
+          <a href="mailto:care@homeowner.world">
+            <HStack>
+              <MailIcon fontSize="2xl" />
+              <Text fontSize="xs">care@homeowner.world</Text>
+            </HStack>
+          </a>
+          <a href="http://www.homeowner.com" target="_blank">
+            <HStack>
+              <MailIcon fontSize="2xl" visibility="hidden" />
+              <Text fontSize="xs">www.homeowner.com</Text>
+            </HStack>
+          </a>
         </Box>
 
         <Box w={["100%", null, null, "calc(100% - 250px)"]} pos="relative">

@@ -4,7 +4,7 @@ import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 function OurCommitment() {
   return (
     <Box p="50px 5%" h="450px" bg="#F7F7F7" pos="relative">
-      <Box pos="absolute" border="1px solid red" top="200px" left="230px">
+      <Box pos="absolute" top="200px" left="230px">
         <Heading as="h2" color="primary" fontSize="lg" mb={1}>
           OUR
         </Heading>

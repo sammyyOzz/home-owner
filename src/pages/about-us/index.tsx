@@ -1,3 +1,5 @@
+import Footer from "@/components/footer";
+import GetInTouch from "./get-in-touch";
 import OurCommitment from "./our-commitment";
 import OurMission from "./our-mission";
 import OurProductsAndServices from "./our-products-and-services";
@@ -18,6 +20,8 @@ function AboutUs() {
       <OurProductsAndServices />
       <TeamMembers />
       <OurCommitment />
+      <GetInTouch />
+      <Footer />
     </>
   );
 }
