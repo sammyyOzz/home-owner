@@ -1,3 +1,4 @@
+import OurCommitment from "./our-commitment";
 import OurMission from "./our-mission";
 import OurProductsAndServices from "./our-products-and-services";
 import OurStory from "./our-story";
@@ -16,6 +17,7 @@ function AboutUs() {
       <OurValues />
       <OurProductsAndServices />
       <TeamMembers />
+      <OurCommitment />
     </>
   );
 }
